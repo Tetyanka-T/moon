@@ -1,0 +1,40 @@
+.crowdsourc__title {
+    font-family: var(--accent-font);
+    font-family: 500;
+    font-size: 35px;
+    margin: 100px 0 20px 0;
+    max-width: 300px;
+}
+.crowdsourc__text {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+button {
+    font-size: 24px;
+}
+@media screen and (min-width: 768px) {
+    .crowdsourc__title {
+        font-size: 64px;
+        margin-bottom: 40px;
+        max-width: 500px;
+    }
+    .crowdsourc__text {
+       max-width: 680px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .crowdsourc__title {
+        max-width: 718px;
+    }
+    .crowdsourc__text {
+        max-width: 900px;
+     }
+}
+@media screen and (min-width: 1800px) {
+    .crowdsourc__title {
+        max-width: 950px;
+    }
+    .crowdsourc__text{
+        max-width: 1200px;
+    }
+}
