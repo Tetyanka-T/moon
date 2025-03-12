@@ -86,6 +86,372 @@
       </p>
       <button class="button__with-border">Use The Cutting Edge AI</button>
     </section>
+    <section class="section__table section container">
+      <div class="table__wrapper__title">
+        <h1 class="table__title">LLM Leaderboard</h1>
+        <button class="button__with-border">Submit your model</button>
+      </div>
+      <p class="table__text">
+        We evaluate LLMs on key benchmarks using the Eleuther AI, a framework to
+        test LLMs on a large number of different evaluation tasks.
+      </p>
+      <p class="table__text">The higher the score, the better the LLM.</p>
+      <div class="table__container">
+        <table class="table">
+          <thead class="table__head">
+            <tr>
+              <th></th>
+              <th>#</th>
+              <th>Model Name</th>
+              <th>Average</th>
+              <th>ARC</th>
+              <th>HellaSwag</th>
+              <th>MMLU</th>
+              <th>TruthfulQA</th>
+              <th>Winogrande</th>
+              <th>GSM8K</th>
+              <th>Usage</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <svg width="20" class="table__icon" >
+                  <use href="./images/sprite.svg#dash"></use>
+                </svg>
+              </td>
+              <td>1</td>
+              <td>davidkim205/Rhea-72b-v0.5</td>
+              <td>81.22</td>
+              <td>79.78</td>
+              <td>91.15</td>
+              <td>77.95</td>
+              <td>74.50</td>
+              <td>87.85</td>
+              <td>76.12</td>
+              <td>1,384,193</td>
+            </tr>
+            <tr id="table">
+              <td>
+                <svg width="20" height="30" class="table__icon" >
+                  <use href="./images/sprite.svg#up"></use>
+                </svg>
+              </td>
+              <td>2</td>
+              <td>MTSAIR/MultiVerse_70B</td>
+              <td>81.00</td>
+              <td>78.67</td>
+              <td>89.77</td>
+              <td>78.22</td>
+              <td>75.18</td>
+              <td>87.53</td>
+              <td>76.65</td>
+              <td>1,319,156</td>
+            </tr>
+            <tr>
+              <td>
+                <svg width="20" height="30" class="table__icon" >
+                  <use href="./images/sprite.svg#dash"></use>
+                </svg>
+              </td>
+              <td>3</td>
+              <td>SF-Foundation/Ein-72B-v0.11</td>
+              <td>81.00</td>
+              <td>78.67</td>
+              <td>89.77</td>
+              <td>78.22</td>
+              <td>75.18</td>
+              <td>87.53</td>
+              <td>76.65</td>
+              <td>1,298,529</td>
+            </tr>
+            <tr>
+              <td>
+                <svg width="20" height="30" class="table__icon" >
+                  <use href="./images/sprite.svg#up"></use>
+                </svg>
+              </td>
+              <td>4</td>
+              <td>abacusai/Smaug-72B-v0.1</td>
+              <td>81.00</td>
+              <td>78.67</td>
+              <td>89.77</td>
+              <td>78.22</td>
+              <td>75.18</td>
+              <td>87.53</td>
+              <td>76.65</td>
+              <td>1,255,720</td>
+            </tr>
+            <tr>
+              <td>
+                <svg width="20" height="30" class="table__icon" >
+                  <use href="./images/sprite.svg#down"></use>
+                </svg>
+              </td>
+              <td>5</td>
+              <td>ibivibiv/alpaca-dragon-72b-v1</td>
+              <td>81.00</td>
+              <td>78.67</td>
+              <td>89.77</td>
+              <td>78.22</td>
+              <td>75.18</td>
+              <td>87.53</td>
+              <td>76.65</td>
+              <td>1,239,060</td>
+            </tr>
+            <tr>
+              <td>
+                <svg width="20" height="30" class="table__icon" >
+                  <use href="./images/sprite.svg#dash"></use>
+                </svg>
+              </td>
+              <td>6</td>
+              <td>mistralai/Mixtral-8x22B-Instruct-v0.1</td>
+              <td>81.00</td>
+              <td>78.67</td>
+              <td>89.77</td>
+              <td>78.22</td>
+              <td>75.18</td>
+              <td>87.53</td>
+              <td>76.65</td>
+              <td>1,208,482</td>
+            </tr>
+            <tr>
+              <td>
+                <svg width="20" height="30" class="table__icon" >
+                  <use href="./images/sprite.svg#up"></use>
+                </svg>
+              </td>
+              <td>7</td>
+              <td>moreh/MoMo-72B-lora-1.8.7-DPO</td>
+              <td>81.00</td>
+              <td>78.67</td>
+              <td>89.77</td>
+              <td>78.22</td>
+              <td>75.18</td>
+              <td>87.53</td>
+              <td>76.65</td>
+              <td>1,205,577</td>
+            </tr>
+            <tr>
+              <td>
+                <svg width="20" height="30" class="table__icon" >
+                  <use href="./images/sprite.svg#up"></use>
+                </svg>
+              </td>
+              <td>8</td>
+              <td>cloudyu/TomGrc_FusionNet_34Bx2_MoE_v0.1_DPO_f16</td>
+              <td>81.00</td>
+              <td>78.67</td>
+              <td>89.77</td>
+              <td>78.22</td>
+              <td>75.18</td>
+              <td>87.53</td>
+              <td>76.65</td>
+              <td>1,199,621</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table class="table more">
+          <tbody>
+            <tr>
+              <td>
+                <svg width="20" height="30" class="table__icon" >
+                  <use href="./images/sprite.svg#down"></use>
+                </svg>
+              </td>
+              <td>9</td>
+              <td>meta-llama/Meta-Llama-3-70B-Instruct</td>
+              <td>81.22</td>
+              <td>79.78</td>
+              <td>91.15</td>
+              <td>77.95</td>
+              <td>74.50</td>
+              <td>87.85</td>
+              <td>76.12</td>
+              <td>1,190,580</td>
+            </tr>
+            <tr>
+              <td>
+                <svg width="20" height="30" class="table__icon" >
+                  <use href="./images/sprite.svg#dash"></use>
+                </svg>
+              </td>
+              <td>10</td>
+              <td>saltlux/luxia-21.4b-alignment</td>
+              <td>81.00</td>
+              <td>78.67</td>
+              <td>89.77</td>
+              <td>78.22</td>
+              <td>75.18</td>
+              <td>87.53</td>
+              <td>76.65</td>
+              <td>1,185,234</td>
+            </tr>
+            <tr>
+              <td>
+                <svg width="20" height="30" class="table__icon" >
+                  <use href="./images/sprite.svg#up"></use>
+                </svg>
+              </td>
+              <td>11</td>
+              <td>zhengr/MixTAO-7Bx2-MoE-</td>
+              <td>81.00</td>
+              <td>78.67</td>
+              <td>89.77</td>
+              <td>78.22</td>
+              <td>75.18</td>
+              <td>87.53</td>
+              <td>76.65</td>
+              <td>1,178,889</td>
+            </tr>
+            <tr>
+              <td>
+                <svg width="20" height="30" class="table__icon" >
+                  <use href="./images/sprite.svg#dash"></use>
+                </svg>
+              </td>
+              <td>12</td>
+              <td>yunconglong/Truthful_DPO_TomGrc_Fusion_7Bx2_Mo</td>
+              <td>81.00</td>
+              <td>78.67</td>
+              <td>89.77</td>
+              <td>78.22</td>
+              <td>75.18</td>
+              <td>87.53</td>
+              <td>76.65</td>
+              <td>1,177,065</td>
+            </tr>
+            <tr>
+              <td>
+                <svg width="20" height="30" class="table__icon" >
+                  <use href="./images/sprite.svg#dash"></use>
+                </svg>
+              </td>
+              <td>13</td>
+              <td>JaeyeonKang/CCK_Asura_v1</td>
+              <td>81.00</td>
+              <td>78.67</td>
+              <td>89.77</td>
+              <td>78.22</td>
+              <td>75.18</td>
+              <td>87.53</td>
+              <td>76.65</td>
+              <td>1,170,954</td>
+            </tr>
+            <tr>
+              <td>
+                <svg width="20" height="30" class="table__icon" >
+                  <use href="./images/sprite.svg#down"></use>
+                </svg>
+              </td>
+              <td>14</td>
+              <td>fblgit/UNA-SimpleSmaug-34b-v1beta</td>
+              <td>81.00</td>
+              <td>78.67</td>
+              <td>89.77</td>
+              <td>78.22</td>
+              <td>75.18</td>
+              <td>87.53</td>
+              <td>76.65</td>
+              <td>1,162,959</td>
+            </tr>
+            <tr>
+              <td>
+                <svg width="20" height="30" class="table__icon" >
+                  <use href="./images/sprite.svg#up"></use>
+                </svg>
+              </td>
+              <td>15</td>
+              <td>TomGrc/FusionNet_34Bx2_MoE_v0.1</td>
+              <td>81.00</td>
+              <td>78.67</td>
+              <td>89.77</td>
+              <td>78.22</td>
+              <td>75.18</td>
+              <td>87.53</td>
+              <td>76.65</td>
+              <td>1,144,223</td>
+            </tr>
+            <tr>
+              <td>
+                <svg width="20" height="30" class="table__icon" >
+                  <use href="./images/sprite.svg#dash"></use>
+                </svg>
+              </td>
+              <td>16</td>
+              <td>cloudyu/TomGrc_FusionNet_34Bx2_MoE_v0.1_DPO6</td>
+              <td>81.00</td>
+              <td>78.67</td>
+              <td>89.77</td>
+              <td>78.22</td>
+              <td>75.18</td>
+              <td>87.53</td>
+              <td>76.65</td>
+              <td>1,129,110</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  
+        <button class="table__button-down">
+          <svg width="60" height="60" class="table__icon" >
+            <use href="./images/sprite.svg#button-down"></use>
+          </svg>
+        </button>
+  
+        <div class="table__button-up__container">
+          <p>View full leaderboard</p>
+          <button class="table__button-up">
+            <svg width="60" height="60" class="table__icon" >
+              <use href="./images/sprite.svg#button-up"></use>
+            </svg>
+          </button>
+        </div>
+    </section>
+    <section class="section__join section container">
+          <h4 class="join__title">Join our community</h4>
+          <img src="./images/moon.png" width="300" height="300" alt="moon" class="join__moon"/>
+          <p class="join__text">
+            Join us on our mission to to the moon & revolutionize open source AI
+            development so that we can build a permissionless, democratized, and
+            decentralized AI.
+          </p>
+          <p  class="join__text">
+            Let the fate of AI be in our hands and not that of big tech
+            companies.
+          </p>
+    </section>
   </main>
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <h4 class="footer__title">Join our community and harvest $SALT</h4>
+      <ul class="footer__list__text">
+        <li>How It Works</li>
+        <li>Buy Salt AI</li>
+      </ul>
+      <ul class="footer__list">
+        <li class="footer__item">
+          <ul class="footer__item__list">
+            <li>
+             <img src="./images/leter.png"/>
+            </li>
+            <li>
+              <img src="./images/logo.png"/>
+            </li>
+          </ul>
+        </li>
+        <li class="footer__item">
+          <ul class="footer__item__list">
+            <li>Terms of Use</li>
+            <li>Privacy Policy</li>
+            <li>Cookie Policy</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+   
+  </footer>
 </body>
 </html>

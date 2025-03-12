@@ -1,0 +1,45 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"
+    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <symbol id="button-down" viewBox="0 0 32 32">
+            <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter"
+                stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.5714"
+                d="M16 0.286c8.679 0 15.714 7.036 15.714 15.714s-7.036 15.714-15.714 15.714c-8.679 0-15.714-7.036-15.714-15.714s7.036-15.714 15.714-15.714z">
+            </path>
+            <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round"
+                stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.1429"
+                d="M16 20l-3.429-3.429M16 20l3.429-3.429M16 20v-8"></path>
+        </symbol>
+        <symbol id="button-up" viewBox="0 0 32 32">
+            <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter"
+                stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.5714"
+                d="M16 0.286c8.679 0 15.714 7.036 15.714 15.714s-7.036 15.714-15.714 15.714c-8.679 0-15.714-7.036-15.714-15.714s7.036-15.714 15.714-15.714z">
+            </path>
+            <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round"
+                stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.1429"
+                d="M16 12l3.429 3.429M16 12l-3.429 3.429M16 12v8"></path>
+        </symbol>
+        <symbol id="circles" viewBox="0 0 114 32">
+            <path fill="#8e8e8e" style="fill: var(--color2, #8e8e8e)"
+                d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+            <path fill="#8e8e8e" style="fill: var(--color2, #8e8e8e)"
+                d="M73 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+            <path fill="#8e8e8e" style="fill: var(--color2, #8e8e8e)"
+                d="M114 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+        </symbol>
+        <symbol id="dash" viewBox="0 0 32 32">
+            <path fill="#606060" style="stroke: var(--color3, #606060)" stroke-linejoin="round" stroke-linecap="round"
+                stroke-miterlimit="4" stroke-width="2.6667" d="M24 16h-16"></path>
+        </symbol>
+        <symbol id="up" viewBox="0 0 32 32">
+            <path fill="none" stroke="#40ff75" style="stroke: var(--color4, #40ff75)" stroke-linejoin="round"
+                stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667"
+                d="M16 6.667l8 8M16 6.667l-8 8M16 6.667v18.667"></path>
+        </symbol>
+        <symbol id="down" viewBox="0 0 32 32">
+            <path fill="none" stroke="#ff1b44" style="stroke: var(--color5, #ff1b44)" stroke-linejoin="round"
+                stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667"
+                d="M16 25.333l-8-8M16 25.333l8-8M16 25.333v-18.667"></path>
+        </symbol>
+    </defs>
+</svg>

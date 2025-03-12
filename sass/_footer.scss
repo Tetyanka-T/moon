@@ -1,0 +1,75 @@
+.footer {
+   position: relative;
+}
+.footer__wrapper {
+    width: 100%;
+    padding: 80px 20px 0 20px;
+    background-image: url(../images/nasa.png);
+    background-position: bottom center;
+    background-size: cover;
+    // position: absolute;
+    // bottom: -280px;
+    // left: 0;
+}
+.footer__title {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 180px;
+    margin-top: 150px;
+}
+.footer__icon {
+    fill: #fff;
+}
+.footer__list__text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.footer__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    padding-top: 20px;
+}
+  
+.footer__item__list {
+    color: #8E8E8E;
+    font-size: 12px;
+    & li {
+        margin-bottom: 10px;
+    }
+  
+    & li:last-child {
+        margin-bottom: 0;
+    }
+}
+  
+@media screen and (min-width: 768px) {
+    .footer__wrapper {
+        padding: 50px 40px 0 40px;
+     
+    }
+    .footer__list_text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         & li:last-child {
+             margin-left: 30px;
+        }
+    }
+    .footer__item__list {
+        display: flex;
+        align-items: center;
+        & li {
+            margin-bottom: 0px;
+            margin-right: 20px;
+        }
+        & li:last-child {
+             margin-right: 0;
+        }
+    }
+}
